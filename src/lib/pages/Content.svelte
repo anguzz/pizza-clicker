@@ -7,7 +7,7 @@
   export let backgroundClass = primaryBackground;
 </script>
 
-<Page id="Content" title=" " {backgroundClass}>
+<Page id="Pizza" title=" " {backgroundClass}>
   <Text>
     Content!
   </Text>

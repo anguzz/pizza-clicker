@@ -26,23 +26,23 @@
       title: "Home",
     },
     {
-      id: "#Content",
-      route: "/Content",
-      name: "Content",
-      title: "Content",
+      id: "#Pizza",
+      route: "/Pizza",
+      name: "Pizza",
+      title: "Pizza",
     },
   ];
   const menuDuration = 200;
   let open = false;
   let colors = {
-    nav: "bg-neutral-300 dark:bg-neutral-800",
+    nav: "bg-gradient-to-r from-red-300 via-orange-300 to-yellow-500",
     button: {
       active:
-        "bg-primary-200 hover:bg-primary-300 dark:bg-primary-800 dark:hover:bg-primary-700 shadow-md",
+        "bg-gradient-to-r from-red-300 via-orange-300 to-yellow-500",
       inactive:
-        "bg-neutral-50 hover:bg-neutral-200 dark:bg-neutral-700 dark:hover:bg-neutral-600 shadow-md",
+        "bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200",
     },
-    buttonText: "text-neutral-800 dark:text-neutral-200",
+    buttonText: "text-neutral-800 dark:text-red-600",
   };
 
   let activeHash = "";
