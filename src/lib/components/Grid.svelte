@@ -1,7 +1,7 @@
 <script>
 	import { random } from '$lib/deps';
 	import { shapes, bigShapes } from '$lib/shapes';
-	import { getTwoColors } from './colors';
+	import { getTwoColors } from '$lib/colors';
 	import { scale } from 'svelte/transition';
 	import { backOut } from 'svelte/easing';
 	import reducedMotion from '$lib/reducedMotion';

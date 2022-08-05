@@ -6,7 +6,7 @@
 
   export let backgroundClass = primaryBackground;
 
-	import Grid from '$lib/Grid.svelte';
+	import Grid from '$lib/components/Grid.svelte';
 	import { random, colors} from '$lib/deps';
 	import { getBackgroundColors } from '$lib/colors';
 
