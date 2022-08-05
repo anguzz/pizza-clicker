@@ -1,5 +1,5 @@
 
-export { seedPRNG, random } from '@georgedoescode/generative-utils';
+export { random } from '@georgedoescode/generative-utils';
 
 import colors from 'nice-color-palettes/100';
 
