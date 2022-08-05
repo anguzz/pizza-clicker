@@ -19,8 +19,8 @@
                 <h3>Angel Santoyo</h3>
                 <p>Feel free to check out my other projects or contact me below</p>
             </div>
-    <div class='w-full h-px m-auto bg-gradient-to-r from-transparent via-gray-400 to-transparent'></div>
-    <div class='flex flex-col items-center gap-6 md:flex-row md:justify-between '>
+    <div class='w-full h-px m-auto bg-gradient-to-r from-transparent via-gray-700 to-transparent'></div>
+    <div class='flex flex-col items-center gap-6 md:flex-row md:justify-between'>
       <div class=copyright>
         &#169; 2022
       </div>
@@ -92,12 +92,13 @@ button {
   color: var(--primary);
 }
 .social-wrapper {
-  background-color: white;
+  background-color: #111827;
   border: 1px solid var(--comp-primary);
 }
 .copyright{
    font-weight:bold;
    font-size: large;
 }
+
 
   </style>
