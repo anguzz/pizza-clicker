@@ -9,19 +9,19 @@
 import Footer from "$lib/pages/Footer.svelte";
 
 /* basic colors at  https://tailwindcss.com/docs/customizing-colors   more at  https://hypercolor.dev/   */ 
-  let primaryBackground = "bg-gradient-to-r from-slate-900 to-blue-900";
-  let neutralBackground = "bg-neutral-200 dark:bg-neutral-900";
+  let primaryBackground = "bg-gradient-to-r from-yellow-500 to-neutral-500";
+  let neutralBackground = "bg-neutral-300 dark:bg-neutral-900";
 </script>
 
 <SEO
-  title="site title"
-  description="site description"
+  title="Pizza Generator "
+  description="Make some pizzas"
   canonical="site link"
 />
 
 <Home />
 
-<Content backgroundClass={neutralBackground} />
+<Content backgroundClass={primaryBackground} />
 
 <Footer backgroundClass={neutralBackground} />
 

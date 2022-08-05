@@ -1,12 +1,9 @@
 <script lang="ts">
   import Anchor from "$lib/components/Anchor.svelte";
-  import IconButton from "$lib/components/IconButton.svelte";
  
   let color = "text-grey-200";
   let hover = "sm:hover:text-primary-500";
-  let colorClass = `${color} ${hover}`;
-  let spacingClass = "mx-5";
-  let sizeClass = "h-8 w-8";
+ 
 </script>
 
 <Anchor id="home" />
@@ -23,9 +20,9 @@
 <style>
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
-    background-image: linear-gradient(217deg, rgba(250, 245, 174, 0.8), rgba(255,0,0,0) 70.71%),
+    background-image: linear-gradient(217deg, rgb(255, 230, 0), rgba(255,0,0,0) 70.71%),
       linear-gradient(127deg, rgba(255, 0, 0, 0.8), rgba(0,255,0,0) 70.71%),
-      linear-gradient(336deg, rgba(247, 252, 0, 0.8), rgba(0,0,255,0) 70.71%);
+      linear-gradient(336deg, RGB(162, 122, 26), rgba(0,0,255,0) 70.71%);
     
   }
 
