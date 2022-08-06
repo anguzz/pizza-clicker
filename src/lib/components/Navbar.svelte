@@ -35,14 +35,14 @@
   const menuDuration = 200;
   let open = false;
   let colors = {
-    nav: "bg-gradient-to-r from-red-300 via-orange-300 to-yellow-500",
+    nav: "bg-gradient-to-r from-red-500 via-orange-300 to-yellow-500",
     button: {
       active:
-        "bg-gradient-to-r from-red-300 via-orange-300 to-yellow-500",
+        "bg-gradient-to-r from-neutral-300 via-neutral-300 to-neutral-500",
       inactive:
-        "bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200",
+        "bg-stone-800",
     },
-    buttonText: "text-neutral-800 dark:text-red-600",
+    buttonText: "text-neutral-100",
   };
 
   let activeHash = "";
