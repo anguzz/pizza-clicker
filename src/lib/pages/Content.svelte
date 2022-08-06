@@ -58,7 +58,7 @@
     </div>
   </div>
 
-  <div class="footer">
+
     <button class="regenerate-button" on:click={regenerate}>
       <svg
         aria-hidden="true"
@@ -78,7 +78,7 @@
     </button>
   
     <button class="shuffle" on:click={shuffle}> shape </button>
-  </div>
+
 
 
 
@@ -105,13 +105,6 @@
 
 	
 
-	.footer {
-		display: flex;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
 
 	button {
 		padding:2rem;
@@ -157,7 +150,7 @@
 	}
 
 	.container {
-		height: 80vh;
+		height: 70vh;
 		padding: 1rem;
 		background-image: radial-gradient(var(--bg-inner) 0%, var(--bg-outer) 100%);
 	}
