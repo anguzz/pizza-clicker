@@ -136,12 +136,12 @@ font-size: 1.7rem;
 }
 button {
 background:#272711;
-margin-bottom:10px;
-padding:6px;
+
+padding:5px;
 border:0px;
 font-family: 'Roboto';
 font-weight: 700;
-font-size: 1.1rem;
+font-size: 1.0rem;
 color:rgb(245, 240, 240);
 background-color: rgb(31, 32, 32);
 border-radius: 10px;

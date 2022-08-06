@@ -12,7 +12,7 @@
   id="bg"
 >
   <div class="text-center">
-    <h1 class="text-5xl m-6 {color} font-dark"> Lets make some pizza! </h1>
+    <h1 class="text-5xl m-6 {color} font-dark"> 🍕 Lets make some pizza! 🍕 </h1>
   </div>
 
 </div>
