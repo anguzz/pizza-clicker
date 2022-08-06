@@ -3,7 +3,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://2.bp.blogspot.com/-49DqQAh1e7w/U5_e6VlodAI/AAAAAAAAAHI/FDQovqdRhqI/s1600/Onion.png';
+    onion.src = 'Onion.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -15,7 +15,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://1.bp.blogspot.com/-hYPUL5Tk-Q0/U6An0rIMAPI/AAAAAAAAAIk/C2MT_AToEt0/s1600/Olive.png';
+    onion.src = 'Olive.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -27,7 +27,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://1.bp.blogspot.com/-W-jXozLHyG4/U6An1aQDnII/AAAAAAAAAIw/yOuKTNjfP60/s1600/Red+Chilli.png';
+    onion.src = 'RedChilli.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -39,7 +39,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-tmbjmlSiqOM/U6An0jFPzDI/AAAAAAAAAIg/9MIQWCsbIVg/s1600/Green+Chilli.png';
+    onion.src = 'GreenChilli.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -51,7 +51,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://2.bp.blogspot.com/-jqxIXlnV1Rk/U6An0vTodVI/AAAAAAAAAIo/y7AzFscBr6k/s1600/Mushroom.png';
+    onion.src = 'Mushroom.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/30,
@@ -63,7 +63,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-fVSxDyyKyc8/U6An1vRaQRI/AAAAAAAAAJA/CrANVelB_eg/s1600/Tomato.png';
+    onion.src = 'Tomato.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/35,
@@ -75,7 +75,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-TJN0wRbXs1E/U6a-cvkFEhI/AAAAAAAAAKk/zbm_SHbL_68/s1600/Salami.png';
+    onion.src = 'Salami.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -87,7 +87,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-KCO0bORA8cM/U6a-cLn-cBI/AAAAAAAAAKY/eY4MU5i0wyY/s1600/Pepperoni.png';
+    onion.src = 'Pepperoni.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -99,7 +99,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-V3XsGrifceE/U6qs4BgYuII/AAAAAAAAAL0/nqU6UAH3-Vs/s1600/Chicken.png';
+    onion.src = 'Chicken.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/35,
@@ -111,7 +111,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://4.bp.blogspot.com/-vK6Xn_88jlk/U6vyr5zEbXI/AAAAAAAAAMM/hrtfCzs2FuY/s1600/Ham.png';
+    onion.src = 'Ham.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/31,
@@ -123,7 +123,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://2.bp.blogspot.com/-3w_9h627Reo/U6a-c0L6x8I/AAAAAAAAAKo/DiolUj_W4CY/s1600/black+pepper.png';
+    onion.src = 'Pepper.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/8,
@@ -135,7 +135,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://4.bp.blogspot.com/-p80w_TSr9Do/U6a-cLWYh9I/AAAAAAAAAKc/f7Vz40DjsGw/s1600/Cheese+Slices.png';
+    onion.src = 'Mozzarella.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/19,
@@ -147,7 +147,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://2.bp.blogspot.com/-220WftxhT5Q/U6a-cDC-z-I/AAAAAAAAAKg/wu95XlaHvno/s1600/Bacon.png';
+    onion.src = 'Bacon.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/19,
@@ -159,7 +159,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-KlvYKUjFqQs/U6vywVdqeeI/AAAAAAAAAMo/v53aCk1lZ3k/s1600/RedPepper.png';
+    onion.src = 'RedPepper.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -171,7 +171,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-oAFw1HK6udw/U6vyw29zJfI/AAAAAAAAAM0/JzsBZtSklAo/s1600/YellowPepper.png';
+    onion.src = 'YellowPepper.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -183,7 +183,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-AYIa_wfvl2w/U6vyvQgnQUI/AAAAAAAAAMc/qUSJYhueuQE/s1600/GreenPepper.png';
+    onion.src = 'GreenPepper.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -195,7 +195,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://1.bp.blogspot.com/-GofsCZ8zW5s/U6vyvEyS2AI/AAAAAAAAAMU/MERdE85nY5Y/s1600/Basil.png';
+    onion.src = 'Basil.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -207,7 +207,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://4.bp.blogspot.com/-MD72EKSk1p8/U6vywnUKABI/AAAAAAAAAMw/jgWwzYKdYio/s1600/Sausage.png';
+    onion.src = 'Sausage.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -219,7 +219,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://3.bp.blogspot.com/-chNeBYmt08M/U6vywD07HbI/AAAAAAAAAMk/K0Br4ITOCpQ/s1600/Pineapple.png';
+    onion.src = 'Pineapple.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -231,7 +231,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://2.bp.blogspot.com/-P6wwIhUH_A0/U6vyvfgycFI/AAAAAAAAAMY/jv0Vxg75Dn0/s1600/Broccoli.png';
+    onion.src = 'Broccoli.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -243,7 +243,7 @@ export function Onion() {
         // @ts-ignore
         ctx = can.getContext('2d'),
         onion = new Image();
-    onion.src = 'https://2.bp.blogspot.com/-945buNWvZYs/U6vyvyghIdI/AAAAAAAAAMg/2-370-KqmGo/s1600/Jalepeno.png';
+    onion.src = 'jalepeno.png';
     // @ts-ignore
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
@@ -262,7 +262,7 @@ export function Onion() {
     
     export  function RedChiliSauce() {
     var sauce1 = new Image();
-    sauce1.src = "https://1.bp.blogspot.com/---M27YA3Jhk/U6E_2SsXahI/AAAAAAAAAJg/95I7R5K_XRQ/s1600/Pizza+Sos+1.png";
+    sauce1.src = "chilliSauce.png";
         
     var c=document.getElementById("painter");
     // @ts-ignore
@@ -274,7 +274,7 @@ export function Onion() {
     
     export   function TomatoSauce() {
     var sauce1 = new Image();
-    sauce1.src = "https://2.bp.blogspot.com/-Ebke1sTgVko/U6FEseMSDcI/AAAAAAAAAJ0/weqtyFmlpHU/s1600/Pizza+Sos+3.png";
+    sauce1.src = "tomatoSauce.png";
         
     var c=document.getElementById("painter");
     // @ts-ignore
@@ -287,13 +287,13 @@ export function Onion() {
     
     export   function Cheese() {
     var sauce1 = new Image();
-    sauce1.src = "https://2.bp.blogspot.com/-jsz1Yv-UkCk/U6FEsbReNfI/AAAAAAAAAJw/rM2k-QkAbfE/s1600/Pizza+Sos+4.png";
+    sauce1.src = "cheese.png";
         
     var c=document.getElementById("painter");
     // @ts-ignore
     var context=c.getContext("2d");
-    var width = 700;
-    var height = 700;
+    var width = 690;
+    var height = 690;
     context.drawImage(sauce1, 0, 0, width, height);
     }
     
