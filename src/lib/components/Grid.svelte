@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 	import { random } from '$lib/deps';
 	import { shapes, bigShapes } from '$lib/shapes';
 	import { getTwoColors } from '$lib/colors';
