@@ -3,9 +3,10 @@
 </script>
 
 <script>
-	export let size;
-	export let x;
-	export let y;
+	
+	export let size=0;
+	export let x=0;
+	export let y=0;
 
 	let id = `Mask${counter++}`;
 </script>

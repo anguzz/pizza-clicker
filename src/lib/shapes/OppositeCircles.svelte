@@ -2,11 +2,11 @@
 	import { random } from '$lib/deps';
 	import { Mask } from '$lib/shapes';
 
-	export let size;
-	export let foreground;
-	export let background;
-	export let x;
-	export let y;
+	export let size=0;
+	export let foreground="";
+	export let background="";
+	export let x=0;
+	export let y=0;
 
 	const offset = random([
 		// top left + bottom right
