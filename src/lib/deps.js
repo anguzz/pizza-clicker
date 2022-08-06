@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 export { random } from '@georgedoescode/generative-utils';
 

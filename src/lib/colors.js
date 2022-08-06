@@ -1,5 +1,8 @@
 import { random, tinycolor } from '$lib/deps';
 
+/**
+ * @param {any[]} colorPalette
+ */
 export function getBackgroundColors(colorPalette) {
 	const bg = tinycolor.mix(colorPalette[0], colorPalette[1], 50).desaturate(10).toString();
 
@@ -10,6 +13,9 @@ export function getBackgroundColors(colorPalette) {
 	return { bgInner, bgOuter };
 }
 
+/**
+ * @param {any} colors
+ */
 export function getTwoColors(colors) {
 	let colorList = [...colors];
 	// Get random index for this array of colors

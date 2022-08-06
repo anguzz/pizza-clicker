@@ -12,7 +12,7 @@
 
 	let counter = 0;
 
-	let colorPalette = [];
+	let colorPalette: any[] = [];
 	/** @type {Dialog} */
 	let dialog;
 
