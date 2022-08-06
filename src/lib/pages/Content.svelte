@@ -50,7 +50,7 @@ ClearCanvas,
 
 </svelte:head>
 
-<svelte:window bind:innerWidth bind:innerHeight />
+<svelte:window bind:innerWidth bind:innerHeight/>
 <title>Content</title>
 <Page id="Pizza" title=" " {backgroundClass}>
 	

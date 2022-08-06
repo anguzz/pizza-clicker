@@ -252,7 +252,7 @@ export function Onion() {
     
         export   function ClearCanvas() {
     var plate = new Image();
-    plate.src = "https://3.bp.blogspot.com/-ptpus-J6iVc/U57NoYQd0eI/AAAAAAAAAGc/9e83ygx66nw/s1600/Pizza.png";
+    plate.src = "Pizza.png";
         
     var c=document.getElementById("painter");
     // @ts-ignore
