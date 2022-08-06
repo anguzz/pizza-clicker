@@ -5,7 +5,7 @@
   import { fade, slide } from "svelte/transition";
 
   animateScroll.setGlobalOptions({
-    onStart: (element, offset) => {
+    onStart: (element: any, offset: any) => {
       open = false;
     },
   });
