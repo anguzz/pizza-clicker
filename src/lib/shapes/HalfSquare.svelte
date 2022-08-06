@@ -1,10 +1,11 @@
 <script>
 	import { random } from '$lib/deps';
-	export let size;
-	export let foreground;
-	export let background;
-	export let x;
-	export let y;
+	
+	export let size=0;
+	export let foreground="";
+	export let background="";
+	export let x=0;
+	export let y=0;
 
 	let halfX = 2;
 	let halfY = 2;

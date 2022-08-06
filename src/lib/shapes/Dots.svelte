@@ -1,11 +1,11 @@
 <script>
 	import { random } from '$lib/deps';
 
-	export let size;
-	export let foreground;
-	export let background;
-	export let x;
-	export let y;
+	export let size=0;
+	export let foreground="";
+	export let background="";
+	export let x=0;
+	export let y=0;
 
 	const sizeOptions = [2, 3, 4];
 	const dotSize = random(sizeOptions);

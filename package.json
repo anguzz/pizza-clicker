@@ -48,7 +48,7 @@
   "type": "module",
   "dependencies": {
     "@georgedoescode/generative-utils": "^1.0.38",
-    "nice-color-palettes": "^3.0.0",
+    "nice-color-palettes": "^2.0.0",
     "tinycolor2": "^1.4.2"
   }
 }
