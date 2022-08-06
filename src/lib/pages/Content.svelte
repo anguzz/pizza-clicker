@@ -97,7 +97,7 @@
 
 	.top {
 		display: flex;
-		gap: 1rem;
+		gap:2rem;
 		flex-wrap: wrap;
 		align-items: start;
 		justify-content: space-between;
@@ -114,10 +114,10 @@
 	}
 
 	button {
-		padding: 0.5rem;
+		padding:2rem;
 		margin: 0;
 		background: #ffffffcc;
-		border: 0.5px solid #555555cc;
+		border: 1px solid #000000f5;
 		line-height: 1;
 		cursor: pointer;
 		color: #333;
@@ -157,7 +157,7 @@
 	}
 
 	.container {
-		height: 100vh;
+		height: 80vh;
 		padding: 1rem;
 		background-image: radial-gradient(var(--bg-inner) 0%, var(--bg-outer) 100%);
 	}

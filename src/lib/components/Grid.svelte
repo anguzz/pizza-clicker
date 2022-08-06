@@ -6,7 +6,10 @@
 	import { backOut } from 'svelte/easing';
 	import reducedMotion from '$lib/reducedMotion';
 
-	export let colorPalette;
+	export /**
+* @type {any}
+*/
+	 let colorPalette;
 
 	const squareSize = 100;
 	const numRows = random(4, 8, true);

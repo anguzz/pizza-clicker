@@ -10,6 +10,7 @@ export function getBackgroundColors(colorPalette) {
 	const bgInner = tinycolor(bg).lighten(10).toString();
 	// And darker version
 	const bgOuter = tinycolor(bg).darken(10).toString();
+	
 	return { bgInner, bgOuter };
 }
 
