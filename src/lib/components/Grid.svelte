@@ -22,6 +22,10 @@
 	// Random Y position
 	const yPosBig = random(0, numCols - multiplier, true) * squareSize;
 
+	/**
+* @param {number} x
+* @param {number} y
+*/
 	function isWithinBigShape(x, y) {
 		return (
 			x >= xPosBig &&
