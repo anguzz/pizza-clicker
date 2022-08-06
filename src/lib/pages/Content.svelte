@@ -7,6 +7,10 @@
   export let backgroundClass = primaryBackground;
 	import "./pizza"
 
+	let innerWidth = 0
+	let innerHeight = 0
+	$: mobile = innerWidth < 1080;
+
 import {RedChiliSauce,
 TomatoSauce,
 Cheese,
@@ -41,6 +45,13 @@ ClearCanvas,
 
 </script>  <!-- -----------------------------------END SCRIPT------------------------------------->
 
+
+<svelte:head>
+
+</svelte:head>
+
+<svelte:window bind:innerWidth bind:innerHeight />
+<title>Content</title>
 <Page id="Pizza" title=" " {backgroundClass}>
 	
 	
