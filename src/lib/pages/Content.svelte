@@ -128,12 +128,7 @@ ClearCanvas,
 <style>
 
 p {color:#1C0000;font-family: 'Fredoka One', cursive;}
-header{
-font-family: 'Roboto';
-font-weight: 700;
-color:rgb(12, 0, 0);
-font-size: 1.7rem;
-}
+
 button {
 background:#272711;
 
@@ -147,30 +142,6 @@ background-color: rgb(31, 32, 32);
 border-radius: 10px;
 }
 
-#header {
-background:transparent; 
-}
-
-#header-image {
-margin:10px;
-width:600px 
-}
-
-hr {margin-bottom:7px}
-
-#pio {
-width:49%;
-padding:15px;
-border:0px solid black;
-}
-.paint{
-	
-	background-size:700px,700px;
-	background-repeat: no-repeat;
-	box-shadow:0 0 9px grey;
-	border:1px dotted silver;
-	margin-bottom:10px;	
-}
 
 
 </style>

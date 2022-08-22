@@ -19,18 +19,7 @@
   }
 
   export let pages: Route[] = [
-    {
-      id: "#Home",
-      route: "/Home",
-      name: "Home",
-      title: "Home",
-    },
-    {
-      id: "#Pizza",
-      route: "/Pizza",
-      name: "Pizza",
-      title: "Pizza",
-    },
+    
   ];
   const menuDuration = 200;
   let open = false;
