@@ -9,7 +9,7 @@
 import Footer from "$lib/pages/Footer.svelte";
 
 /* basic colors at  https://tailwindcss.com/docs/customizing-colors   more at  https://hypercolor.dev/   */ 
-  let primaryBackground = "bg-gradient-to-r from-yellow-500 to-neutral-500";
+  let primaryBackground = "bg-gradient-to-r from-yellow-500 to-red-500";
   let neutralBackground = "bg-neutral-300 dark:bg-neutral-900";
 </script>
 

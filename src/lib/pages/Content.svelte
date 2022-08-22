@@ -65,7 +65,7 @@ ClearCanvas,
 	
 	<div class="paint">
 	<canvas id="painter" width="700" height="700" style=
-	"background-image:url(Pizza.png);	background-size:700px,700px;	background-repeat: no-repeat;	cursor:crosshair;	border:4px solid silver; background-color:#1b1b1b">
+	"background-image:url(Pizza.png);	background-size:700px,700px;	background-repeat: no-repeat;	cursor:crosshair;	 background-color:#1b1b1b">
 	</canvas> 
 	</div>
 

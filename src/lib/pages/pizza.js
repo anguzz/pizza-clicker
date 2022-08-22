@@ -20,7 +20,7 @@ export function Onion() {
     can.onclick= function(evt) {
         var x = evt.offsetX - onion.width/10,
             y = evt.offsetY - onion.height/10;
-        ctx.drawImage(onion, x, y,40,25);};}
+        ctx.drawImage(onion, x, y,35,25);};}
         
         export function RedChilli() {    
     var can = document.getElementById("painter"),
